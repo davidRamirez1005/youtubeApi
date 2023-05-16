@@ -1,0 +1,131 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgba(185, 178, 178, 0.281);
+}
+.buscador{
+    display: flex;
+}
+.buscador input{
+    display: flex;
+    width: 58%;
+    height: 45px;
+    margin-top: 3vh;
+}
+.logo{
+    display: flex;
+    margin-bottom: 5vh;
+}
+.encabezado{
+    display: flex;
+    margin-left: 10%;
+}
+.logo div svg{
+    display: flex;
+    width: 58%;
+    height: 45px;
+    margin-top: 2vh;
+}
+.video{
+    display: flex;
+    height: 500px;
+    width: 60%;
+    background-color: brown;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3vh;
+
+}
+.a{
+    height: 30vh;
+    width: 18%;
+}
+.b{
+    height: 30vh;
+    width: 18%;
+
+}
+.c{
+    height: 30vh;
+    width: 18%;
+
+}
+.abc{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 3vh;
+}
+.com{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    margin-left: 4%;
+    width: 100%;
+}
+.comentarios{
+    display: flex;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+    height: 40vh;
+    background-color: rgb(234, 247, 221);
+    margin-left: 4%;
+    width: 100%;
+    overflow: auto;
+    padding-top: 4%;
+    padding-left: 4%;
+    flex-direction: column;
+}
+.descripcion{
+    display: flex;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+    height: 40vh;
+    background-color: rgb(234, 247, 221);
+    margin-left: 4%;
+    width: 100%;
+    overflow: auto;
+    scroll-behavior: inherit;
+    padding-top: 4%;
+    padding-left: 4%;
+}
+.flotar{
+    position: absolute;
+    top: 75vh;
+    display: block;
+    z-index: 998;
+    width: 72%;
+}
+.seccion{
+    position: relative;
+
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    gap: 1rem;
+}
+.boton button{
+    border: none;
+    border-radius: 40px;
+    padding: 10px;
+    background: linear-gradient(to right, #ff1010, #ffffff, #ffffff, #ff1010);
+    color: rgb(39, 31, 31);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background-size: 300% 100%;
+    
+}
+button:hover {
+    transition:background-position 3s;
+    background-position: 100% 0;
+}
